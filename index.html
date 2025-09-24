@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        
+        function getComputerChoice() {
+            var choices = ['rock', 'paper', 'scissors'];
+            var computerChoice = choices[Math.floor(Math.random() * choices.length)];
+            return computerChoice;
+        }
     </script>
 </head>
 <body>
